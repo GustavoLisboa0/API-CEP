@@ -1,0 +1,31 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+
+    <div class="consultaCep">
+        <div class="inserirCep">
+            <label for="cep">CONSULTA CEP:</label>
+            <input type="text" id="cep" maxlength="9" pattern="\d{5}-?\d{3}" placeholder="00000-000" required>
+        </div>
+    </div>
+
+    <button class="botaoConsultar" id="botaoConsultar">Consultar</button>
+
+    <div class="resultadoCep" id="resultadoCep"></div>
+    
+    <button id="botaoSalvar">Salvar</button>
+
+    <div class="enderecosSalvos" id="enderecosSalvos">
+        <h3>ENDEREÇOS SALVOS:</h3>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

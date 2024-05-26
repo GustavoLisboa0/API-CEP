@@ -1,0 +1,90 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #585858;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consultaCep {
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.consultaCep label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.consultaCep input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.botaoConsultar {
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #bbff00;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botaoConsultar:hover {
+    background-color: #618500;
+}
+
+.resultadoCep {
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+    text-align: left;
+    padding: 50px;
+}
+
+#botaoSalvar {
+    margin-top: 10px;
+    width: 100px;
+    padding: 10px;
+    background-color: #bbff00;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#botaoSalvar:hover {
+    background-color: #618500;
+}
+
+.enderecosSalvos {
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+    text-align: left;
+}
+
+.enderecosSalvos h3 {
+    margin-top: 0;
+    text-align: center;
+}
